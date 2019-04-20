@@ -2,21 +2,23 @@ package com.gupaoedu.vip.pattern.factory.simplefactory;
 
 
 import com.gupaoedu.vip.pattern.factory.ICourse;
+import com.gupaoedu.vip.pattern.factory.JavaCourse;
+import com.gupaoedu.vip.pattern.factory.PythonCourse;
 
 /**
  * Created by Tom.
  */
 public class CourseFactory {
 
-//    public ICourse create(String name){
-//        if("java".equals(name)){
-//            return new JavaCourse();
-//        }else if("python".equals(name)){
-//            return new PythonCourse();
-//        }else {
-//            return null;
-//        }
-//    }
+    public ICourse create(String name){
+        if("java".equals(name)){
+            return new JavaCourse();
+        }else if("python".equals(name)){
+            return new PythonCourse();
+        }else {
+            return null;
+        }
+    }
 
 //    public ICourse create(String className){
 //        try {
