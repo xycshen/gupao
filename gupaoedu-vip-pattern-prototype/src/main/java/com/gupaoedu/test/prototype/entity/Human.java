@@ -1,0 +1,29 @@
+package com.gupaoedu.test.prototype.entity;
+
+/**
+ * @Auther: xiyou
+ * @Date: 2019/4/27 16:23
+ * @Description:
+ */
+public class Human {
+
+    private String name;
+
+    private int age;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+}
